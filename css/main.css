@@ -15,9 +15,8 @@ html, body {
 }
 
 .mdl-card--wide > .mdl-card__title {
-  background-color: #3F51B5;
+  /*background-color: #3F51B5;*/
   background-color: #212121;
-  background: url('/img/welcome_card.jpg') center / cover;
   height: 180px;
   color: rgb(255, 255, 255);
 }
@@ -50,4 +49,17 @@ html, body {
 
 .mdl-card--wide > .mdl-card__actions > .mdl-button--icon {
   color: #F44336;
+}
+
+.book-event > .mdl-card__title {
+  background: url('/img/welcome_card.jpg') center / cover;
+  /*background: url('/img/books.jpg') center / cover;*/
+}
+
+.dance-event > .mdl-card__title {
+  background: url('/img/dance.jpg') center / cover;
+}
+
+.concert-event > .mdl-card__title {
+  background: url('/img/concert.jpg') center / cover;
 }
