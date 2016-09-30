@@ -11,6 +11,10 @@ html, body {
   margin-bottom: 16px;
 }
 
+.mdl-card--wide.mdl-card:last-child {
+  margin-bottom: 0;
+}
+
 .mdl-card--wide > .mdl-card__actions {
 }
 
@@ -51,9 +55,15 @@ html, body {
   color: #F44336;
 }
 
+.mdl-button.mdl-button--small {
+  min-width: 0;
+  padding: 0 8px;
+  font-size: 0.75em;
+}
+
 .book-event > .mdl-card__title {
-  background: url('/img/welcome_card.jpg') center / cover;
-  /*background: url('/img/books.jpg') center / cover;*/
+  /*background: url('/img/welcome_card.jpg') center / cover;*/
+  background: url('/img/books.jpg') center / cover;
 }
 
 .dance-event > .mdl-card__title {
