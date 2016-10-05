@@ -68,33 +68,33 @@ html, body {
 
 .book-event > .mdl-card__title {
   /*background: url('/img/welcome_card.jpg') center / cover;*/
-  background: url('/img/books.jpg') center / cover;
+  background: url('../img/books.jpg') center / cover;
   /*background-image:         linear-gradient(to bottom right, #3F51B5, #1A237E);*/
   /*background-image:         linear-gradient(to bottom right, #7986CB, #303F9F);*/
 }
 
 .dance-event > .mdl-card__title {
-  background: url('/img/dance.jpg') center / cover;
+  background: url('../img/dance.jpg') center / cover;
 }
 
 .concert-event > .mdl-card__title {
-  background: url('/img/concert.jpg') center / cover;
+  background: url('../img/concert.jpg') center / cover;
 }
 
 .sport-event > .mdl-card__title {
-  background: url('/img/sports.jpg') center / cover;
+  background: url('../img/sports.jpg') center / cover;
 }
 
 .plastic-art-event > .mdl-card__title {
-  background: url('/img/plastic_art.jpg') center / cover;
+  background: url('../img/plastic_art.jpg') center / cover;
 }
 
 .bazar-event > .mdl-card__title {
-  background: url('/img/bazar.jpg') center / cover;
+  background: url('../img/bazar.jpg') center / cover;
 }
 
 .theater-event > .mdl-card__title {
-  background: url('/img/theater.jpg') center / cover;
+  background: url('../img/theater.jpg') center / cover;
 }
 
 /*.dance-event > .mdl-card__title:after {
